@@ -26,8 +26,8 @@
 
 - Limits
 
-    1 ¡Ü T ¡Ü 100.
-1 ¡Ü both answers ¡Ü 4.
+    1 ï¿½ï¿½ T ï¿½ï¿½ 100.
+1 ï¿½ï¿½ both answers ï¿½ï¿½ 4.
 Each number from 1 to 16 will appear exactly once in each arrangement.
 
 - Sample
@@ -69,7 +69,7 @@ Each number from 1 to 16 will appear exactly once in each arrangement.
 ```
 
     * output
-```
+ ```
 Case #1: 7
 Case #2: Bad magician!
 Case #3: Volunteer cheated!

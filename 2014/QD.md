@@ -23,7 +23,7 @@ Ken, who thinks they're playing War, thinks the number Naomi just told him is Ch
    1. They each put their block on one side of a balance scale, and the person whose block is heavier gets one point.
    1. Both blocks are destroyed in a fire.
 
- Naomi doesn't want Ken to know that she isn't playing War; so when she is choosing which block to play, and what mass to tell Ken, she must make sure that the balance scale won't reveal that ChosenNaomi ¡Ù ToldNaomi. In other words, she must make decisions so that:
+ Naomi doesn't want Ken to know that she isn't playing War; so when she is choosing which block to play, and what mass to tell Ken, she must make sure that the balance scale won't reveal that ChosenNaomi â‰  ToldNaomi. In other words, she must make decisions so that:
 
  * ChosenNaomi > ChosenKen if, and only if, ToldNaomi > ChosenKen, and
  * ToldNaomi is not equal to the mass of any of Ken's blocks, because he knows that isn't possible.
@@ -34,7 +34,7 @@ Ken, who thinks they're playing War, thinks the number Naomi just told him is Ch
 
 - Examples
 
- If each player has a single block left, where Naomi has 0.5kg and Ken has 0.6kg, then Ken is guaranteed to score the point. Naomi can't say her number is ¡Ý 0.6kg, or Ken will know she isn't playing War when the balance scale shows his block was heavier.
+ If each player has a single block left, where Naomi has 0.5kg and Ken has 0.6kg, then Ken is guaranteed to score the point. Naomi can't say her number is â‰¥ 0.6kg, or Ken will know she isn't playing War when the balance scale shows his block was heavier.
 
  If each player has two blocks left, where Naomi has [0.7kg, 0.2kg] and Ken has [0.8kg, 0.3kg], then Naomi could choose her 0.2kg block, and deceive Ken by telling him that she chose a block that was 0.6kg. Ken assumes Naomi is telling the truth (as in how the War game works) and will play his 0.8kg block to score a point. Ken was just deceived, but he will never realize it because the balance scale shows that his 0.8kg block is, like he expected, heavier than the block Naomi played. Now Naomi can play her 0.7kg block, tell Ken it is 0.7kg, and score a point. If Naomi had played War instead of Deceitful War, then Ken would have scored two points and Naomi would have scored zero.
 
@@ -50,17 +50,17 @@ Ken, who thinks they're playing War, thinks the number Naomi just told him is Ch
 
 - Limits
 
- 1 ¡Ü T ¡Ü 50.
+ 1 â‰¤ T â‰¤ 50.
 
  All the masses given to Ken and Naomi are distinct, and between 0.0 and 1.0 exclusive.
  
    - Small dataset
 
-   1 ¡Ü N ¡Ü 10.
+   1 â‰¤ N â‰¤ 10.
    
    - Large dataset
 
-   1 ¡Ü N ¡Ü 1000.
+   1 â‰¤ N â‰¤ 1000.
    
 - Sample
 

@@ -1,7 +1,4 @@
 '''
-Ken is not good at mathmatic at all.
-I thought his genious method is using the lightest one to lose.
-but no.....................
 Lolllllllllllll~~
 '''
 f = file ('input.in','r')
